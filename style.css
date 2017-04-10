@@ -1,0 +1,279 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  
+  font-family: 'open sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-size: 14px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.btn {
+  transition: all 300ms ease-in-out;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #ededed !important;
+  color: #3c3c3c !important;
+  border: 1px solid #fff !important;
+}
+
+/*======================Navigation============================*/
+.navbar {
+  background-color: #222 !important;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-weight: 700;
+}
+
+.navbar a {
+  color: #f3f3f3 !important;
+  opacity: 0.7;
+}
+
+.navbar a:hover {
+  opacity: 1;
+  background-color: #111 !important;
+}
+
+.navbar .active a {
+  background-color: #777 !important;
+  color: #eee;
+}
+
+/*======================HEADER============================*/
+.about {
+  height: 600px;
+  width: 100%;
+  padding: 50px 0 30px;
+  margin-top: 50px;
+  background: url(https://images.pexels.com/photos/425/apple-iphone-desk-office.jpg?h=350&auto=compress&cs=tinysrgb);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f8f8f8;
+}
+
+.about img {
+  height: 300px;
+  width: 450px;
+  margin: 70px 0 0 40px;
+}
+
+.about h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.about h1,
+.about p,
+.about button {
+  margin-top: 20px;
+}
+
+.about .btn {
+  border-radius: 5px;
+  margin: 40px 20px;
+}
+.about p {
+  line-height: 1.5;
+  font-size: 120%;
+  letter-spacing: 1.5px;
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 30px;
+    height: 750px;
+  }
+  .about img {
+    width: 85%;
+    height: 240px;
+    margin: 20px 0 0 20px;
+  }
+  .about .btn {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .about h1 {
+    font-size: 20px;
+  }
+  .about p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    padding: 30px;
+    height: 750px;
+  }
+  .about img {
+    width: 80%;
+    height: 200px;
+    margin: 20px 0 0 20px;
+  }
+  .about .btn {
+    font-size: 10px;
+    margin: 10px;
+  }
+  .about h1 {
+    font-size: 18px;
+  }
+  .about p {
+    font-size: 10px;
+  }
+}
+
+/*======================Portfolio============================*/
+.portfolio {
+  padding: 80px 0 80px;
+  text-align: center;
+}
+
+.portfolio h2,
+.portfolio h4 {
+  color: green !important;
+  margin: 20px 0 20px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-size: 48px;
+}
+
+.portfolio img {
+  height: 300px;
+  width: 300px;
+  margin-top: 40px;
+}
+.portfolio p {
+  color: #737373;
+  font-size: 14px;
+  margin: 30px 0 20px;
+}
+
+.portfolio .lead {
+  font-size: 18px;
+}
+
+@media(max-width: 768px) {
+  .portfolio {
+    padding: 30px;
+  }
+  .portfolio h2 {
+    font-size: 22px;
+  }
+}
+
+
+/*=================Contact===========================*/
+.contact {
+  padding: 50px 0 80px;
+  text-align: center;
+}
+
+.contact .btn {
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px; 
+}
+
+.contact .btn:hover {
+  background-color: #9CF996 !important;
+  color: #333 !important;
+}
+
+.contact p {
+  padding-bottom: 80px;
+  color: #737373;
+}
+
+.contact h2 {
+  color: #4c4c4c;
+  margin: 20px 0 20px;
+}
+
+.contact .input-group {
+  margin-bottom: 25px;
+}
+
+.contact .form-control,
+.contact span {
+  border-radius: 0 !important;
+}
+/* Contact */
+
+/* Footer */
+
+.footer {
+  padding: 30px;
+  color: #ccc;
+  background-color: #222;
+}
+
+.footer .social {
+  font-size: 20px;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  transition: all 500ms ease-in-out;
+}
+
+.footer h4 {
+  margin-bottom: 20px;
+}
+.footer .social:hover {
+  color: #fff;
+}
+
+.footer input {
+  height: 40px;
+  width: 175px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #222;
+}
+
+.footer .btn {
+  padding: 10px 10px 10px;
+  margin: -3px 0 0 5px;
+}
